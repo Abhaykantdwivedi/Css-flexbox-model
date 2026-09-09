@@ -4,164 +4,660 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Dashboard</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <title>Abhay | Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--Navbar-->
-    <header class="navbar">
 
-        <div class="logo">
-            DevSpace
-        </div>
+    <!-- ================= NAVBAR ================= -->
 
-        <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">Skills</a>
-            <a href="#">Blog</a>
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">Abhay<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-btn">Let's Talk</a>
+
         </nav>
-
-        <button class="contact-btn">
-            Contact
-        </button>
 
     </header>
 
-    <!--Main layout-->
 
-    <main class="dashboard">
+    <main>
 
-        <!--sidebar-->
+        <!-- ================= HERO ================= -->
 
-        <aside class="sidebar">
-            <h2>Dashboard</h2>
+        <section class="hero" id="home">
 
-            <div class="sidebar-links">
-                <a href="#">Overview</a>
-                <a href="#">Project</a>
-                <a href="#">Analytics</a>
-                <a href="#">Settings</a>
+            <div class="hero-content">
+
+                <p class="small-heading">
+                    👋 Hello, I'm
+                </p>
+
+                <h1>
+                    Abhaykant <span>Dwivedi</span>
+                </h1>
+
+                <h2>
+                    Frontend Developer
+                </h2>
+
+                <p class="hero-description">
+                    I build modern, responsive and user-friendly websites
+                    using HTML, CSS, JavaScript and React.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
             </div>
 
-        </aside>
 
-        <!--Content-->
+            <div class="hero-image">
 
-        <section class="content">
-            <!--Hero-->
-            <section class="hero">
+                <div class="profile-card">
 
-                <div class="hero-text">
+                    <div class="profile-circle">
+                        👨‍💻
+                    </div>
 
-                    <p>WELOCOME TO MY SPACE</p>
-
-
-
-                    <h1>
-                        Build. Learn.
-                        <span>Grow</span>
-
-                    </h1>
+                    <h3>Frontend Developer</h3>
 
                     <p>
-                        A modern developer dashboard
-                        built using flexbox and CSS Grid.
+                        HTML • CSS • JavaScript • React
                     </p>
 
-                    <div class="hero-buttons">
-                        <button>
-                            View Project
-                        </button>
+                </div>
 
-                        <button>
-                            Learn More
-                        </button>
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="section-heading">
+
+                <p>ABOUT ME</p>
+
+                <h2>
+                    A little bit about me
+                </h2>
+
+            </div>
+
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <div class="about-box">
+                        💻
                     </div>
 
                 </div>
 
-                <div class="hero-image">
-                    🚀
-                </div>
 
-            </section>
+                <div class="about-content">
 
-            <!--Statistics-->
+                    <h3>
+                        I'm a Frontend Developer & BCA Student
+                    </h3>
 
-            <section class="stats">
-                <div class="stat-card">
-                    <h2>25+</h2>
-                    <p>Project</p>
-                </div>
+                    <p>
+                        I'm currently pursuing my Bachelor of Computer
+                        Applications and focusing on frontend and MERN
+                        stack development.
+                    </p>
 
-                <div class="stat-card">
-                    <h2>15</h2>
-                    <p>Tecnologies</p>
-                </div>
+                    <p>
+                        I enjoy creating clean interfaces, responsive
+                        layouts and interactive web applications.
+                    </p>
 
-                <div class="stat-card">
-                    <h2>500+</h2>
-                    <p>GitHub Commits</p>
-                </div>
 
-                <div class="stat-card">
-                    <h2>2+</h2>
-                    <p>Years Learning</p>
-                </div>
-            </section>
+                    <div class="about-info">
 
-            <!--Skills-->
+                        <div>
+                            <strong>Name:</strong>
+                            <span>Abhaykant Dwivedi</span>
+                        </div>
 
-            <section>
-                <h2 class="section-title">
-                    My Skills
-                </h2>
+                        <div>
+                            <strong>Education:</strong>
+                            <span>BCA</span>
+                        </div>
 
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>HTML</h3>
-                        <p>90%</p>
+                        <div>
+                            <strong>Role:</strong>
+                            <span>Frontend Developer</span>
+                        </div>
+
+                        <div>
+                            <strong>Location:</strong>
+                            <span>Delhi, India</span>
+                        </div>
+
                     </div>
 
-                <div class="skill-card">
-                    <h3>CSS</h3>
-                    <P>75%</P>
                 </div>
 
-                <div class="skill-card">
-                    <h3>Python</h3>
-                    <p>70%</p>
-                </div>
+            </div>
 
-                <div class="skill-card">
-                    <h3>SQL</h3>
-                    <p>80%</p>
-                </div>
+        </section>
 
-                <div class="skill-card">
-                    <h3>Git</h3>
-                    <p>75%</p>
-                </div>
 
-                </div>
+        <!-- ================= SKILLS ================= -->
 
-            </section>
+        <section class="skills section" id="skills">
 
-            <!--Projects-->
+            <div class="section-heading">
 
-            <section>
-                <h2 class="section-title">
-                    Projects
+                <p>MY SKILLS</p>
+
+                <h2>
+                    Technologies I work with
                 </h2>
 
-            
-            </section>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        HTML
+                    </div>
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        Semantic and accessible webpage structure.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        CSS
+                    </div>
+
+                    <h3>CSS3</h3>
+
+                    <p>
+                        Responsive layouts using Flexbox and Grid.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        JS
+                    </div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Interactive and dynamic web applications.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        ⚛
+                    </div>
+
+                    <h3>React</h3>
+
+                    <p>
+                        Component-based frontend applications.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        Git
+                    </div>
+
+                    <h3>Git & GitHub</h3>
+
+                    <p>
+                        Version control and project collaboration.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        API
+                    </div>
+
+                    <h3>REST APIs</h3>
+
+                    <p>
+                        Connecting frontend applications with APIs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="projects section" id="projects">
+
+            <div class="section-heading">
+
+                <p>MY WORK</p>
+
+                <h2>
+                    Featured Projects
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        🌤️
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Weather Dashboard
+                        </h3>
+
+                        <p>
+                            A responsive weather application that
+                            displays real-time weather information.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+
+                        </div>
+
+                        <a href="#" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        🛒
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            E-Commerce Website
+                        </h3>
+
+                        <p>
+                            Modern shopping website with product
+                            cards, categories and responsive design.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        📊
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Admin Dashboard
+                        </h3>
+
+                        <p>
+                            Dashboard interface created using
+                            CSS Grid and Flexbox.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS Grid</span>
+                            <span>Flexbox</span>
+
+                        </div>
+
+                        <a href="#" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 4 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        📝
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Task Manager
+                        </h3>
+
+                        <p>
+                            Simple task management application with
+                            interactive UI.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>JavaScript</span>
+                            <span>DOM</span>
+                            <span>CSS</span>
+
+                        </div>
+
+                        <a href="#" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services section" id="services">
+
+            <div class="section-heading">
+
+                <p>SERVICES</p>
+
+                <h2>
+                    What I can do
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🌐
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Building responsive and modern websites
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        📱
+                    </div>
+
+                    <h3>
+                        Responsive Design
+                    </h3>
+
+                    <p>
+                        Websites that work properly on mobile,
+                        tablet and desktop devices.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        ⚛️
+                    </div>
+
+                    <h3>
+                        React Development
+                    </h3>
+
+                    <p>
+                        Creating reusable components and
+                        interactive React applications.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="section-heading">
+
+                <p>CONTACT</p>
+
+                <h2>
+                    Let's work together
+                </h2>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>
+                        Have a project in mind?
+                    </h3>
+
+                    <p>
+                        Feel free to contact me if you want to
+                        discuss a project, job opportunity or
+                        collaboration.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <strong>Email</strong>
+
+                        <span>
+                            abhay@example.com
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <strong>Location</strong>
+
+                        <span>
+                            Delhi, India
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+                <form class="contact-form">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="Subject"
+                    >
+
+                    <textarea
+                        rows="6"
+                        placeholder="Your Message"
+                    ></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
 
         </section>
 
     </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div>
+
+                <a href="#" class="logo">
+                    Abhay<span>.</span>
+                </a>
+
+                <p>
+                    Frontend Developer building modern
+                    web experiences.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Abhaykant Dwivedi. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
 
 </body>
 
